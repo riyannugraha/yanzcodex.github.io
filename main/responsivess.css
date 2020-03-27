@@ -1,0 +1,123 @@
+@media screen and (max-width: 576px) {             
+    h5.nc{
+        display: block;
+    }
+
+    .toggler-c{
+        display: block;
+    }
+
+    .navbar #profile{
+        display: none;
+    }
+
+    .navbar .nav-link{
+        text-align: center;
+    }
+
+    .navbar .works-item,
+    .navbar .about-item,
+    .navbar .link-item,
+    .navbar .contact-item{
+        border-bottom: none;
+    }
+
+    #title h2{
+        font-size: 30px !important;
+    }
+
+    main{
+        background-image: url('../img/group.png');
+        background-size: 40% 30%;
+        background-repeat: no-repeat; 
+        background-position: left bottom;
+    }
+
+    main #w-w{
+        transform: none;
+        position: relative;
+        margin-top: 0 !important;
+        top: 150px !important;
+        text-align: center;        
+    }
+
+    main #cycle{
+        margin: 0 auto;
+        margin-bottom: -25px;
+        margin-top: -25px;
+    }
+
+
+    #bg2{
+        z-index: 99;
+    }
+
+    .lol{
+        margin-top: 0;
+    }
+
+    .lol #w-a{
+        margin-top: -80px !important;
+        transform: none;
+        text-align: center;
+    }
+
+    .lol .card{
+        margin-top: -20px;
+    }
+
+    .lol #bg2{
+        width: 80%;
+        height: 400px;
+        position: relative;
+        top: -100px;
+        left: 50px;
+    }
+
+
+
+
+
+    .link #w-l{
+        margin-top: 100px !important;        
+        transform: none;
+        text-align:  center;
+    }
+
+    .link .links{
+        margin-top: 30px !important;
+    }
+
+    .link .link-item-link h4{
+        font-size: 20px !important;
+    }
+    .link .link-item-link p{
+        font-size: 10px !important;
+    }
+
+
+
+    .contact #w-c{
+        margin-top: 130px !important;
+        transform: none;
+        text-align: center;
+    }
+
+    .contact .card{
+        margin-top: 30px !important;
+    }
+
+    .contact .card h5{
+        font-size: 15px !important;
+    }
+
+    .contact #call{
+        margin-top: 20px !important;
+        height: 400px;
+    }
+
+
+    footer p{
+        font-size: 15px !important;
+    }
+ }

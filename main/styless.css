@@ -1,0 +1,415 @@
+h5.nc{
+	display: none;
+	color: #007FFF !important;
+	padding: 10px 15px 0 0;
+	text-shadow: 0 1px 5px black;	
+}
+/*toggler*/
+.toggler-c{
+	width: 50px;
+	height: 43px;
+	cursor: pointer;
+	padding: 10px;
+	display: none;
+	transition: all 1s;
+	background: white;
+	border-radius: 3px; 
+	margin-left: 20px;
+}
+
+.ubah .icon1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px) ; 
+	transform: rotate(-45deg) translate(-9px, 6px) ;
+	transition: all 1s;
+}
+
+/* Fade out the second bar */
+.ubah .icon2 {
+	opacity: 0;
+}
+
+/* Rotate last bar */
+.ubah .icon3 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+	transform: rotate(45deg) translate(-8px, -8px) ;
+	transition: all 1s;
+}
+
+.icon1{
+	width: 30px;
+	height: 4px;
+	background: #007FFF;	
+}
+
+.icon2{
+	width: 30px;
+	height: 4px;
+	background: #007FFF;	
+	margin-top: 5px;
+}
+
+.icon3{
+	width: 30px;
+	height: 4px;
+	background: #007FFF;	
+	margin-top: 5px;
+}
+
+
+.loading {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #222222;
+    z-index: 1000;
+}
+
+.loading #icon-loading{
+	width: 200px;
+	margin: 15% auto;
+}
+
+.one-n{
+	background: red;
+}
+
+
+.fixed {
+	position: fixed;
+	width: 100%;  
+	top: 0;
+	z-index: 999;
+	/*background: rgba(0,0,0,.9) !important;*/  
+	box-shadow: 0 0 15px black;	
+}
+
+.fixed-bg{
+	position: fixed;
+	top: 0;
+}
+
+.navbar-toggler{
+	background: white !important;	
+}
+
+#up{
+	width: 80px;
+	height: 80px;
+	position: absolute;	
+	background: rgba(0,0,0,.5);
+	border-radius: 50%;
+	bottom: 50px;
+	right: 40px;	
+	display: none;
+}
+
+#cycle{
+	width: 40%;
+	height: 200px;
+	position: relative;
+	top: 20px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background: rgba(0,0,0,.3);
+	font-family: 'Roboto Slab', serif;
+}
+
+.blue{
+	color: #007FFF !important;
+	font-weight: bold;
+}
+
+.bgku{
+	/*background: rgba(230, 228, 228,.7);*/
+}
+
+
+#profile{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: red;
+	background: url('../img/profile.JPG');
+	background-position: 0 -2px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.navbar a{
+	/*color: #007FFF !important;*/
+	color: #007FFF !important;
+	font-weight: 500;
+}
+
+/*header{
+	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('../img/bg.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;	
+	}*/
+
+	header{
+		position: relative;	
+	}
+
+	header #bg{
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		margin: 0 auto;
+		background: rgba(0,0,0,.3);		
+	}
+
+	header #bg:after{
+		content: '';
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0,0,0,.8);
+	}
+
+	header{
+		width: 100%;
+		min-height: 100vh;
+	}
+
+	header #title{
+		margin-top: 120px;	
+		height: 200px;
+	}
+
+	header #title h2{
+		font-size: 60px;
+		position: relative;
+	}
+
+	header #title h2.a{
+		margin-top: 20px !important;
+	}
+
+	header #title h2 span{
+		color: #007FFF !important;
+	}
+
+	header #sosmed .fa-instagram,
+	header #sosmed .fa-whatsapp,
+	header #sosmed .fa-github{
+		font-size: 30px !important;
+		color: #007FFF !important;
+	}
+
+	/* =============================================== */
+	/* 					about Section 					*/
+	/* =============================================== */
+
+	main{
+		width: 100%;
+		min-height: 100vh;
+		background: #dff6f0;
+		position: relative;
+		background-image: url('../img/group.png');
+		background-size: 24% 40%;
+		background-repeat: no-repeat; 
+		background-position: left bottom;
+	}
+
+	main #work{
+		width: 100%;
+	}
+
+	main #work .card{
+		margin-top: 170px;
+		height: 300px;
+		overflow: hidden;
+	}
+
+	.work-title{
+		color: #adadad;		
+		transform: rotate(-90deg);
+	}
+
+	.work-title#w-w{
+		margin-top: 230px;
+	}
+
+	.work-title#w-a{
+		margin-top: 45px;
+	}
+
+	main #work .card h5{
+		display: none;
+		transition: all 1s;
+	}
+
+	main #work .card img{
+		transition: all 1s;
+	}
+
+	main #work .card:hover h5{
+		display: block;		
+	}
+
+	main #work .card:hover img{
+		transform: scale(2);
+		/*background: rgba(0, 127, 255, .8);*/		
+	}
+
+	main #work .card:hover:after{
+		display: block;
+	}
+
+	.card:after{
+		content: '';
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 127, 255, .3);
+		transition: 1s ease-in;	
+	}
+
+	main #work .card-img-overlay h5{
+		position: relative;
+		z-index: 999;
+		transform: rotate(-40deg);		
+	}
+
+	.lol{
+		width: 100%;
+		min-height: 100vh;
+		background: #007FFF;
+		position: relative;
+	}
+
+	.lol .content-about{
+		position: relative;
+		top: 180px;
+	}
+
+	.lol .content-about .card{
+		background: #dff6f0;
+		height: 400px;
+		overflow: hidden;
+
+	}
+
+	.lol .content-about .card p{
+		text-align: justify;
+	}
+
+	.lol #bg2{
+		width: 100%;
+		height: 90%;
+		margin-top: -50px;
+		margin-left: 50px;
+	}
+
+
+
+	/* =============================================== */
+	/* 					link Section 					*/
+	/* =============================================== */
+	.link{
+		width: 100%;
+		min-height: 100vh;
+		background: #dff6f0;
+		position: relative;
+	}
+
+	#w-l{
+		margin-top: 200px;
+	}
+
+	.links{
+		margin-top: 170px;
+		height: 500px;
+	}
+
+	.link .link-item-link{
+		border-bottom: 1px solid rgba(0,0,0,.4);
+	}
+	
+
+
+	/* =============================================== */
+	/* 					contact Section 				*/
+	/* =============================================== */
+
+	.contact{
+		width: 100%;
+		min-height: 100vh;
+		background: #007FFF;
+		position: relative;
+	}
+
+	#w-c{
+		margin-top: 250px;
+	}
+
+	.contact .card{	
+		margin-top: 180px;
+		background: rgba(223, 246, 240, .7);
+	}
+
+	.contact #call{
+		width: 100%;
+		height: 50%;	
+		margin-top: 130px;
+	}
+
+
+
+	/* =============================================== */
+	/* 					footer Section 				*/
+	/* =============================================== */
+
+	footer{
+		width: 100%;
+		height: 100px;
+		background: rgba(0,0,0,.3);
+		position: relative;
+	}
+	footer p{
+		line-height: 80px;
+	}
+
+	footer .fa-heart{
+		color: pink !important;
+		animation: love 1s linear infinite;
+	}
+
+	@keyframes love{
+		0%{
+			transform: scale(1);
+			text-shadow: 0 0 5px red;
+			}25%{
+				transform: scale(1.2);
+				text-shadow: 0 0 15px pink;
+				}50%{
+					transform: scale(1);
+					text-shadow: 0 0 5px red;
+				}
+				75%{
+					transform: scale(1.2);
+					text-shadow: 0 0 15px pink;
+					}100%{
+						transform: scale(1);
+						text-shadow: 0 0 5px red;
+					}
+				}
